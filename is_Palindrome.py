@@ -10,6 +10,8 @@ def isPalindrome(string):
         new_string = string[1:-1]
         return isPalindrome(new_string)
 
+#Complexity: Working from the end of the string to the middle, we have O(n) time complexity. We only use constant assignment operations so space complexity is O(1).
+
 tests = [
     {
         "string": "awesome",
